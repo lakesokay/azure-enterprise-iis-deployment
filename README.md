@@ -107,7 +107,22 @@ User stories were structured around:
 https://leke-cloud-portfolio.centralus.cloudapp.azure.com
 
 ---
+---
 
+## 🏗 Architecture Diagram
+
+```mermaid
+flowchart TD
+    A[Internet User] --> B[Azure Public DNS<br/>leke-cloud-portfolio.centralus.cloudapp.azure.com]
+    B --> C[Azure Public IP]
+    C --> D[Network Security Group<br/>Allow: 80, 443<br/>Restricted: 3389]
+    D --> E[Azure Virtual Network]
+    E --> F[Subnet: subnet-web-dev]
+    F --> G[Windows Server 2025 VM]
+    G --> H[IIS Web Server]
+```
+
+---
 ## 🎯 Skills Demonstrated
 
 - Azure Infrastructure as a Service (IaaS)
