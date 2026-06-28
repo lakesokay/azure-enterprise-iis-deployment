@@ -1,6 +1,6 @@
 # Enterprise Azure Infrastructure Deployment for Cloud Consulting Client
 
-## 📌 Business Scenario
+## Business Scenario
 
 A consulting client required deployment of a secure, publicly accessible web platform hosted in Microsoft Azure.
 
@@ -17,7 +17,7 @@ This engagement was structured as a cloud consulting infrastructure deployment p
 
 ---
 
-## 🧠 Role & Responsibilities
+## Role & Responsibilities
 
 **Role:** Cloud Infrastructure Consultant (Hybrid Technical + Delivery)
 
@@ -35,7 +35,7 @@ Responsibilities included:
 
 ---
 
-## 🏗 Architecture Components
+## Architecture Components
 
 - Azure Resource Group
 - Azure Virtual Network (VNet)
@@ -49,7 +49,7 @@ Responsibilities included:
 
 ---
 
-## 🔐 Security Controls Implemented
+## Security Controls Implemented
 
 - RDP restricted to a single public IP address
 - NSG-based inbound traffic control
@@ -60,7 +60,7 @@ Responsibilities included:
 
 ---
 
-## 🧪 Validation & Testing
+## Validation & Testing
 
 Performed:
 
@@ -93,7 +93,7 @@ User stories were structured around:
 
 ---
 
-## 💰 Governance & Cost Management
+## Governance & Cost Management
 
 - Implemented VM Auto-shutdown policy
 - Controlled exposure of public endpoints
@@ -102,14 +102,14 @@ User stories were structured around:
 
 ---
 
-## 🌐 Live Deployment
+## Live Deployment
 
 https://leke-cloud-portfolio.centralus.cloudapp.azure.com
 
 ---
 ---
 
-## 🏗 Architecture Diagram
+## Architecture Diagram
 
 ```mermaid
 flowchart TD
@@ -123,7 +123,7 @@ flowchart TD
 ```
 
 ---
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - Azure Infrastructure as a Service (IaaS)
 - Cloud Networking & NSG Configuration
